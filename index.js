@@ -37,7 +37,7 @@ function changeDog() {
        setTimeout(() => {
            document.getElementById('container').innerHTML = `
            <h1>No more dogs to check out!</h1>
-           <img id="replay" class="replay-btn" src="replay.webp">`
+           <img id="replay" class="replay-btn" src="images/replay.webp">`
            document.getElementById('replay').addEventListener('click', function() {
           location.reload()
 })
