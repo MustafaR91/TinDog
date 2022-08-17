@@ -1,5 +1,5 @@
-import Dog from 'Dog.js'
-import dogs from 'data.js'
+import Dog from '/Dog.js'
+import dogs from '/data.js'
 
 let nextDogArray = ['Rex', 'Bella', 'Teddy']
 function nextDog() {
